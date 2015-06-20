@@ -1,6 +1,6 @@
 Yii2-Metronic
 ======================
-Forked from (Yii2-Metronic)[https://github.com/hustshenl/yii2-metronic]
+Forked from [Yii2-Metronic](https://github.com/hustshenl/yii2-metronic)
 
 Yii2Metronic is a collection of Yii2 components(widgets) based on responsive and multipurpose admin theme
 called Metronic (v4.0). Powered with Twitter Bootstrap v3.3.4 Framework. 
