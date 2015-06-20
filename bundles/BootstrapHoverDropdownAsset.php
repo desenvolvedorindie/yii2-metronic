@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BootstrapHoverDropdownAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcretions/metronic/assets';
+    public $sourcePath = '@bower/bootstrap-hover-dropdown';
     public $js = [
-        'global/plugins/bootstrap-datepicker-extended/js/bootstrap-datepicker.js',
+        'bootstrap-hover-dropdown.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

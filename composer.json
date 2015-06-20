@@ -18,7 +18,8 @@
     "require": {
         "yiisoft/yii2": "*",
         "kartik-v/yii2-grid": "*",
-        "bower-asset/bootstrap-hover-dropdown": "*"
+        "bower-asset/bootstrap-hover-dropdown": "*",
+        "bower-asset/autosize": "*"
     },
     "autoload": {
         "psr-4": {
