@@ -1,0 +1,262 @@
+<?php
+
+/**
+ * @link http://www.shenl.com/
+ * @copyright Copyright (c) 2012 - 2015 SHENL.COM
+ * @license http://www.shenl.com/license/
+ */
+
+namespace wfcreations\metronic;
+
+use Yii;
+use yii\web\AssetBundle;
+use yii\base\InvalidConfigException;
+use wfcreations\metronic\bundles\ThemeAsset;
+
+/**
+ * This is the class of Metronic Component
+ */
+class Metronic extends \yii\base\Component {
+
+    /**
+     * @var AssetBundle
+     */
+    public static $assetsBundle;
+
+    /**
+     * Versions
+     */
+    const ADMIN_THEME_1 = 'layout';
+    const ADMIN_THEME_2 = 'layout2';
+    const ADMIN_THEME_3 = 'layout3';
+    const ADMIN_THEME_4 = 'layout4';
+    const ADMIN_THEME_5 = 'layout5';
+    const ADMIN_THEME_5 = 'layout6';
+    const NEW_ONE_PAGE_THEME = 'onepage2';
+    const FRONTEND_ECOMMERCE = 'shop';
+    const FRONTEND_FRONTEND_CORPORATE = 'frontend';
+    const FRONTEND_ONEPAGE_PARALLAX = 'onepage';
+
+    /**
+     * Theme color
+     */
+    const THEME_COLOR_DEFAULT = 'default';
+    const THEME_COLOR_DARK_BLUE = 'darkblue';
+    const THEME_COLOR_BLUE = 'blue';
+    const THEME_COLOR_GRAY = 'grey';
+    const THEME_COLOR_LIGHT = 'light';
+    const THEME_COLOR_LIGHT2 = 'light2';
+
+    /**
+     * Theme style
+     */
+    const THEME_STYLE_SQUARE = 'default';
+    const THEME_STYLE_ROUNDED = 'rounded';
+
+    /**
+     * Layout
+     */
+    const LAYOUT_FLUID = 'default';
+    const LAYOUT_BOXED = 'boxed';
+
+    /**
+     * Header
+     */
+    const HEADER_DEFAULT = 'default';
+    const HEADER_FIXED = 'fixed';
+
+    /**
+     *  Top menu dropdown
+     */
+    const TOP_MENU_DROPDOWN_LIGHT = 'light';
+    const TOP_MENU_DROPDOWN_DARK = 'dark';
+
+    /**
+     * Sidebar
+     */
+    const SIDEBAR_DEFAULT = 'default';
+    const SIDEBAR_FIXED = 'fixed';
+
+    /**
+     * Sidebar menu
+     */
+    const SIDEBAR_MENU_ACCORDION = 'accordion';
+    const SIDEBAR_MENU_HOVER = 'hover';
+
+    /**
+     * Sidebar style
+     */
+    const SIDEBAR_STYLE_DEFAULT = 'default';
+    const SIDEBAR_STYLE_LIGHT = 'light';
+
+    /**
+     * Sidebar position
+     */
+    const SIDEBAR_POSITION_LEFT = 'left';
+    const SIDEBAR_POSITION_RIGHT = 'right';
+
+    /**
+     * Footer
+     */
+    const FOOTER_DEFAULT = 'default';
+    const FOOTER_FIXED = 'fixed';
+
+    /**
+     * Search string
+     */
+    const PARAM_VERSION = '{version}';
+    const PARAM_THEME = '{theme}';
+
+    /**
+     * UI Colors blue
+     */
+//    const UI_COLOR_BLUE = 'blue';
+//    const UI_COLOR_BLUE_HOKI = 'blue-hoki';
+//    const UI_COLOR_BLUE_STEEL = 'blue-steel';
+//    const UI_COLOR_BLUE_MADISON = 'blue-madison';
+//    const UI_COLOR_BLUE_CHAMBRAY = 'blue-chambray';
+//    const UI_COLOR_BLUE_EBONYCLAY = 'blue-ebonyclay';
+//
+//    /**
+//     * UI Colors green
+//     */
+//    const UI_COLOR_GREEN = 'green';
+//    const UI_COLOR_GREEN_MEADOW = 'green-meadow';
+//    const UI_COLOR_GREEN_SEAGREEN = 'green-seagreen';
+//    const UI_COLOR_GREEN_TORQUOISE = 'green-torquoise';
+//    const UI_COLOR_GREEN_JUNGLE = 'green-jungle';
+//    const UI_COLOR_GREEN_HAZE = 'green-haze';
+//
+//    /**
+//     * UI Colors red
+//     */
+//    const UI_COLOR_RED = 'red';
+//    const UI_COLOR_RED_PINK = 'red-pink';
+//    const UI_COLOR_RED_SUNGLO = 'red-sunglo';
+//    const UI_COLOR_RED_INTENSE = 'red-intense';
+//    const UI_COLOR_RED_THUNDERBIRD = 'red-thunderbird';
+//    const UI_COLOR_RED_FLAMINGO = 'red-flamingo';
+//    const UI_COLOR_RED_HAZE = 'red-haze';
+//
+//    /**
+//     * UI Colors yellow
+//     */
+//    const UI_COLOR_YELLOW = 'yellow';
+//    const UI_COLOR_YELLOW_GOLD = 'yellow-gold';
+//    const UI_COLOR_YELLOW_CASABLANCA = 'yellow-casablanca';
+//    const UI_COLOR_YELLOW_CRUSTA = 'yellow-crusta';
+//    const UI_COLOR_YELLOW_LEMON = 'yellow-lemon';
+//    const UI_COLOR_YELLOW_SAFFRON = 'yellow-saffron';
+//
+//    /**
+//     * UI Colors purple
+//     */
+//    const UI_COLOR_PURPLE = 'purple';
+//    const UI_COLOR_PURPLE_PLUM = 'purple-plum';
+//    const UI_COLOR_PURPLE_MEDIUM = 'purple-medium';
+//    const UI_COLOR_PURPLE_STUDIO = 'purple-studio';
+//    const UI_COLOR_PURPLE_WISTERIA = 'purple-wisteria';
+//    const UI_COLOR_PURPLE_SEANCE = 'purple-seance';
+//
+//    /**
+//     * UI Colors grey
+//     */
+//    const UI_COLOR_GREY = 'grey';
+//    const UI_COLOR_GREY_CASCADE = 'grey-cascade';
+//    const UI_COLOR_GREY_SILVER = 'grey-silver';
+//    const UI_COLOR_GREY_STEEL = 'grey-steel';
+//    const UI_COLOR_GREY_CARARRA = 'grey-cararra';
+//    const UI_COLOR_GREY_GALLERY = 'grey-gallery';
+
+    /**
+     * @var string Theme color
+     */
+    public $themeColor = self::THEME_COLOR_DEFAULT;
+
+    /**
+     * @var string Theme style
+     */
+    public $themeStyle = self::THEME_STYLE_ROUNDED;
+
+    /**
+     * @var string Layout
+     */
+    public $layout = self::LAYOUT_FLUID;
+
+    /**
+     * @var string Header
+     */
+    public $header = self::HEADER_FIXED;
+
+    /**
+     * @var string Top menu dropdown
+     */
+    public $topMenuDropdown = self::TOP_MENU_DROPDOWN_LIGHT;
+
+    /**
+     * @var string Sidebar display
+     */
+    public $sidebar = self::SIDEBAR_DEFAULT;
+
+    /**
+     * @var string Sidebar display
+     */
+    public $sidebarMenu = self::SIDEBAR_MENU_ACCORDION;
+
+    /**
+     * @var string Sidebar style
+     */
+    public $sidebarStyle = self::SIDEBAR_STYLE_DEFAULT;
+
+    /**
+     * @var string Sidebar position
+     */
+    public $sidebarPosition = self::SIDEBAR_POSITION_LEFT;
+
+    /**
+     * @var string Footer display
+     */
+    public $footer = self::FOOTER_DEFAULT;
+
+    /**
+     * @var string Component name used in the application
+     */
+    public static $componentName = 'metronic';
+
+    /**
+     * Inits module
+     */
+    public function init() {
+        
+    }
+
+    /**
+     * @return Metronic Get Metronic component
+     */
+    public static function getComponent() {
+        return Yii::$app->{static::$componentName};
+    }
+
+    /**
+     * Get base url to metronic assets
+     * @param $view View
+     * @return string
+     */
+    public static function getAssetsUrl($view) {
+        if (static::$assetsBundle === null) {
+            static::$assetsBundle = static::registerThemeAsset($view);
+        }
+
+        return (static::$assetsBundle instanceof AssetBundle) ? static::$assetsBundle->baseUrl : '';
+    }
+
+    /**
+     * Register Theme Asset
+     * @param $view View
+     * @return AssetBundle
+     */
+    public static function registerThemeAsset($view) {
+        return static::$assetsBundle = ThemeAsset::register($view);
+    }
+
+}

@@ -1,0 +1,71 @@
+<?php
+
+/**
+ * @copyright Copyright (c) 2012 - 2015 SHENL.COM
+ * @license http://www.shenl.com/license/
+ */
+
+namespace wfcreations\metronic\widgets;
+
+use yii\helpers\Html;
+use wfcreations\metronic\bundles\IonRangeSliderAsset;
+
+/**
+ *  IonRangeSlider renders ionRangeSlider widget.
+ *
+ *  For example, if [[model]] and [[attribute]] are not set:
+ * ```php
+ * echo IonRangeSlider::widget([
+ *     'name' => 'ionRangeSlider',
+ *     'clientOptions' => [
+ *         'min' => 0,
+ *         'max' => 5000,
+ *         'from' => 1000, // default value
+ *         'to' => 4000, // default value
+ *         'type' => 'double',
+ *         'step' => 1,
+ *         'prefix' => "$",
+ *         'prettify' => false,
+ *         'hasGrid' => true
+ *     ],
+ * ]);
+ * ```
+ * @see https://github.com/IonDen/ion.rangeSlider
+ */
+class IonRangeSlider extends InputWidget {
+
+    /**
+     * Types
+     */
+    const TYPE_SINGLE = 'single';
+    const TYPE_DOUBLE = 'double';
+
+    /**
+     * @var string separator values
+     */
+    public $separator = ';';
+
+    /**
+     * Executes the widget.
+     */
+    public function run() {
+        if ($this->hasModel()) {
+            $values = explode($this->separator, $this->model->{$this->attribute});
+            if (count($values) == 2) {
+                $this->clientOptions['from'] = (int) $values[0];
+                $this->clientOptions['to'] = (int) $values[1];
+            }
+            echo Html::activeTextInput($this->model, $this->attribute, $this->options);
+        } else {
+            $values = explode($this->separator, $this->value);
+            if (count($values) == 2) {
+                $this->clientOptions['from'] = (int) $values[0];
+                $this->clientOptions['to'] = (int) $values[1];
+            }
+            echo Html::textInput($this->name, $this->value, $this->options);
+        }
+        IonRangeSliderAsset::register($this->view);
+        $this->registerPlugin('ionRangeSlider');
+    }
+
+}

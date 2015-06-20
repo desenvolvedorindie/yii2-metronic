@@ -1,0 +1,28 @@
+{
+    "name": "wfcreations/yii2-metronic",
+    "description": "Yii2 Metronic theme",
+    "keywords": ["yii2", "theme", "metronic"],
+    "type": "yii2-extension",
+    "license": "BSD",
+    "support": {
+        "issues": "https://github.com/wfcreations/yii2-metronic/issues",
+        "wiki": "https://github.com/wfcreations/yii2-metronic/wiki",
+        "source": "https://github.com/wfcreations/yii2-metronic"
+    },
+    "authors": [
+        {
+            "name": "Welsiton Ferreira",
+            "email": "wfcreations@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "kartik-v/yii2-grid": "*",
+        "bower-asset/bootstrap-hover-dropdown": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wfcreations\\metronic\\": ""
+        }
+    }
+}
