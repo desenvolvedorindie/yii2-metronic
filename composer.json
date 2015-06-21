@@ -18,8 +18,11 @@
     "require": {
         "yiisoft/yii2": "*",
         "kartik-v/yii2-grid": "*",
-        "bower-asset/bootstrap-hover-dropdown": "*",
-        "bower-asset/autosize": "*"
+        "bower-asset/autosize": "*",
+        "bower-asset/jquery-backstretch": "*",
+        "bower-asset/bootbox.js": "*",
+        "bower-asset/bootstrap-confirmation2": "*",
+        "bower-asset/http://www.eyecon.ro/bootstrap-colorpicker/colorpicker.zip": "*"
     },
     "autoload": {
         "psr-4": {
