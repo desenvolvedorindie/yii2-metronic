@@ -21,8 +21,7 @@
         "bower-asset/autosize": "*",
         "bower-asset/jquery-backstretch": "*",
         "bower-asset/bootbox.js": "*",
-        "bower-asset/bootstrap-confirmation2": "*",
-        "bower-asset/colorpicker": "http://www.eyecon.ro/bootstrap-colorpicker/colorpicker.zip"
+        "bower-asset/bootstrap-confirmation2": "*"
     },
     "autoload": {
         "psr-4": {
