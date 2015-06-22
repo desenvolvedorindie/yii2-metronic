@@ -20,4 +20,13 @@ Basic configuration:
     'preload' => ['metronic'],
 ```
 
-##### For more details see code documentation
+Missing Plugins
+
+- [Rateit](https://rateit.codeplex.com/)
+- [smooth-scroll](https://gist.github.com/6477177.git)
+
+No Open Source
+
+- [Cube Portfolio](http://scriptpie.com/cubeportfolio/live-preview/)
+- [LayerSlider](http://kreaturamedia.com/layerslider-responsive-jquery-slider-plugin/)
+- [Slider Revolution Responsive](http://themes.themepunch.com/?theme=revolution_jq)
