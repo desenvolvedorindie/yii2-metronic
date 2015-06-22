@@ -39,7 +39,7 @@
         "bower-asset/pwstrength-bootstrap": "1.2.7",
         "bower-asset/bootstrap-select": "1.7.2",
         "bower-asset/bootstrap-selectsplitter": "0.1.1",
-        "bower-asset/jquery-session-timeout": "1.0.3",
+        "bower-asset/jquery-session-timeout": "*",
         "bower-asset/summernote": "0.6.9",
         "bower-asset/bootstrap-switch": "3.3.2",
         "bower-asset/bootstrap-tabdrop": "1.0.0",
