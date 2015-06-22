@@ -53,7 +53,6 @@
         "bower-asset/OwlCarousel": "1.3.2",
         "bower-asset/ckeditor": "4.4.7",
         "bower-asset/jquery.countdown": "2.0.4",
-        "bower-asset/countdown": "2.0.1",
         "bower-asset/datatables": "1.10.7",
         "bower-asset/datatables-plugins": "1.10.7",
         "bower-asset/dropzone": "4.0.1",
@@ -133,11 +132,6 @@
                 "type": "bower-vcs",
                 "url": "https://github.com/OwlFonk/OwlCarousel.git",
                 "name": "bower-asset/OwlCarousel"
-            },
-            {
-                "type": "bower-vcs",
-                "url": "https://github.com/kbwood/countdown.git",
-                "name": "bower-asset/countdown"
             },
             {
                 "type": "bower-vcs",
