@@ -15,6 +15,7 @@
             "email": "wfcreations@gmail.com"
         }
     ],
+    "minimum-stability" : "dev",
     "require": {
         "yiisoft/yii2": "*",
         "kartik-v/yii2-grid": "*",
