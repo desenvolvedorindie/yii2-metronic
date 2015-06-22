@@ -92,7 +92,6 @@
         "bower-asset/simple-line-icons": "1.0.0",
         "bower-asset/smooth-scroll": "*",
         "bower-asset/typeahead.js": "0.11.1",
-        "bower-asset/uniform": "2.1.2",
         "bower-asset/jquery-zoom": "1.7.14",
         "bower-asset/ExplorerCanvas": "*",
         "bower-asset/holderjs": "2.8.0",
@@ -162,11 +161,7 @@
                 "url": "https://gist.github.com/6477177.git",
                 "name": "bower-asset/smooth-scroll"
             },
-            {
-                "type": "bower-vcs",
-                "url": "https://github.com/pixelmatrix/uniform.git",
-                "name": "bower-asset/uniform"
-            },
+
             {
                 "type": "bower-vcs",
                 "url": "https://github.com/felipevolpatto/jquery-input-ip-address-control.git",
