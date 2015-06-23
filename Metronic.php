@@ -1,21 +1,11 @@
 <?php
 
-/**
- * @link http://www.shenl.com/
- * @copyright Copyright (c) 2012 - 2015 SHENL.COM
- * @license http://www.shenl.com/license/
- */
-
 namespace wfcreations\metronic;
 
 use Yii;
 use yii\web\AssetBundle;
-use yii\base\InvalidConfigException;
 use wfcreations\metronic\bundles\ThemeAsset;
 
-/**
- * This is the class of Metronic Component
- */
 class Metronic extends \yii\base\Component {
 
     /**
@@ -31,7 +21,7 @@ class Metronic extends \yii\base\Component {
     const ADMIN_THEME_3 = 'layout3';
     const ADMIN_THEME_4 = 'layout4';
     const ADMIN_THEME_5 = 'layout5';
-    const ADMIN_THEME_5 = 'layout6';
+    const ADMIN_THEME_6 = 'layout6';
     const NEW_ONE_PAGE_THEME = 'onepage2';
     const FRONTEND_ECOMMERCE = 'shop';
     const FRONTEND_FRONTEND_CORPORATE = 'frontend';
@@ -227,7 +217,8 @@ class Metronic extends \yii\base\Component {
      * Inits module
      */
     public function init() {
-        
+        echo "asd";
+        die;
     }
 
     /**

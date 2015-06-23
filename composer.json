@@ -1,7 +1,11 @@
 {
     "name": "wfcreations/yii2-metronic",
     "description": "Yii2 Metronic theme",
-    "keywords": ["yii2", "theme", "metronic"],
+    "keywords": [
+        "yii2",
+        "theme",
+        "metronic"
+    ],
     "type": "yii2-extension",
     "license": "BSD",
     "support": {
@@ -29,6 +33,9 @@
         "rmrevin/yii2-fontawesome": "*",
         "speixoto/yii2-amcharts": "*",
         "hiqdev/yii2-asset-autosize": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {

@@ -12,20 +12,118 @@ tablets and phones.
 
 Basic configuration:
 ```php
+    'bootstrap' => ['metronic'],
     'components' => [ 
         'metronic' => [
             'class' => 'wfcreations\metronic\Metronic',
         ],
     ],
-    'preload' => ['metronic'],
 ```
 
-##Missing Plugins
+##Plugins
 
-- [Rateit](https://rateit.codeplex.com/)
-- [smooth-scroll](https://gist.github.com/6477177.git)
+- [ ] amcharts
+  - [ ] amcharts
+  - [ ] ammap
+  - [ ] amstockcharts
+- [ ] angularjs
+- [ ] autosize
+- [ ] backstretch
+- [ ] bootbox
+- [x] bootstrap
+- [ ] bootstrap-colorpicker
+- [ ] bootstrap-confirmation
+- [ ] bootstrap-contextmenu
+- [ ] bootstrap-datepaginator
+- [ ] bootstrap-datepicker
+- [ ] bootstrap-daterangepicker
+- [ ] bootstrap-datetimepicker
+- [ ] bootstrap-editable
+- [ ] bootstrap-fileinput
+- [ ] bootstrap-growl
+- [ ] bootstrap-gtreetable
+- [ ] bootstrap-hover-dropdown
+- [ ] bootstrap-markdown
+- [ ] bootstrap-maxlength
+- [ ] bootstrap-modal
+- [ ] bootstrap-pwstrength
+- [ ] bootstrap-select
+- [ ] bootstrap-selectsplitter
+- [ ] bootstrap-sessiontimeout
+- [ ] bootstrap-summernote
+- [ ] bootstrap-switch
+- [ ] bootstrap-tabdrop
+- [ ] bootstrap-timepicker
+- [ ] bootstrap-toastr
+- [ ] bootstrap-touchspin
+- [ ] bootstrap-wizard
+- [ ] bootstrap-wysihtml5
+- [ ] carousel-owl-carousel
+- [ ] ckeditor
+- [ ] clockface
+- [ ] countdown
+- [ ] cubeportfolio
+- [ ] datatables
+- [ ] dropzone
+- [ ] fancybox
+- [ ] flot
+- [ ] font-awesome
+- [ ] fuelux
+- [ ] fullcalendar
+- [ ] gmaps
+- [ ] gritter
+- [ ] icheck
+- [ ] ion.rangeslider
+- [ ] jcrop
+- [ ] jquery-bootpag
+- [ ] jquery-easypiechart
+- [ ] jquery-file-upload
+- [ ] jquery-idle-timeout
+- [ ] jquery-inputmask
+- [ ] jquery-knob
+- [ ] jquery-minicolors
+- [ ] jquery-mixitup
+- [ ] jquery-multi-select
+- [ ] jquery-nestable
+- [ ] jquery-notific8
+- [ ] jquery-slimscroll
+- [ ] jquery-tags-input
+- [ ] jquery-ui
+- [ ] jquery-ui-touch-punch
+- [ ] jquery-validation
+- [ ] jqvmap
+- [ ] jstree
+- [ ] morris
+- [ ] nouislider
+- [ ] owl.carousel
+- [ ] pace
+- [ ] plupload
+- [ ] rateit
+- [ ] select2
+- [ ] simple-line-icons
+- [ ] slider-layer-slider
+- [ ] slider-revolution-slider
+- [ ] smooth-scroll
+- [ ] tabdrop
+- [ ] typeahead
+- [ ] uniform
+- [ ] zoom
+- [ ] excanvas
+- [ ] jquery.blockui
+- [ ] jquery.cokie
+- [ ] jquery.easing
+- [ ] jquery.input-ip-address-control
+- [x] jquery
+- [ ] jquery.mockjax
+- [ ] jquery.parallax
+- [ ] jquery.pulsate
+- [ ] jquery.scrollTo
+- [ ] jquery.sparkline
+- [ ] jquery-migrate
+- [ ] moment
+- [ ] respond
 
-##Comercial
+##Comercial Plugins
 
 - [amcharts](http://www.amcharts.com/)
 - [Cube Portfolio](http://scriptpie.com/cubeportfolio/live-preview/)
