@@ -25,7 +25,10 @@
         "2amigos/yii2-date-picker-widget": "*",
         "2amigos/yii2-date-time-picker-widget": "*",
         "2amigos/yii2-multi-select-widget": "*",
-        "2amigos/yii2-editable-widget": "*"
+        "2amigos/yii2-editable-widget": "*",
+        "rmrevin/yii2-fontawesome": "*",
+        "speixoto/yii2-amcharts": "*",
+        "hiqdev/yii2-asset-autosize": "*"
     },
     "autoload": {
         "psr-4": {
