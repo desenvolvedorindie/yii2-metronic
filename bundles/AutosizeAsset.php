@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class AutosizeAsset extends AssetBundle {
 
-    public $sourcePath = '@bower/autosize';
+    public $sourcePath = '@wfcreations/metronic/assets/';
     public $js = [
-        'dist/autosize.min.js',
+        'global/plugins/autosize/autosize.min.js',
     ];
 
 }

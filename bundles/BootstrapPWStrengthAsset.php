@@ -4,11 +4,11 @@ namespace wfcreations\metronic\bundles;
 
 use yii\web\AssetBundle;
 
-class BootstrapHoverDropdownAsset extends AssetBundle {
+class BootstrapPWStrengthAsset extends AssetBundle {
 
     public $sourcePath = '@wfcreations/metronic/assets';
     public $js = [
-        'global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
+        'global/plugins/bootstrap-pwstrength/pwstrength-bootstrap.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

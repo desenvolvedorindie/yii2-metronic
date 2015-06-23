@@ -17,7 +17,9 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "kartik-v/yii2-grid": "*"
+        "kartik-v/yii2-grid": "*",
+        "2amigos/yii2-ckeditor-widget": "*",
+        "2amigos/yii2-file-upload-widget": "*"
     },
     "autoload": {
         "psr-4": {

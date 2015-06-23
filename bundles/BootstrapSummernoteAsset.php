@@ -4,11 +4,14 @@ namespace wfcreations\metronic\bundles;
 
 use yii\web\AssetBundle;
 
-class BootstrapHoverDropdownAsset extends AssetBundle {
+class BootstrapSummernoteAsset extends AssetBundle {
 
     public $sourcePath = '@wfcreations/metronic/assets';
+    public $css = [
+        'global/plugins/bootstrap-summernote/summernote.css',
+    ];
     public $js = [
-        'global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
+        'global/plugins/bootstrap-summernote/summernote.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',
