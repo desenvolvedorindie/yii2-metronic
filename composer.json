@@ -21,7 +21,11 @@
         "2amigos/yii2-ckeditor-widget": "*",
         "2amigos/yii2-file-upload-widget": "*",
         "2amigos/yii2-type-ahead-widget": "*",
-        "2amigos/yii2-switch-widget": "*"
+        "2amigos/yii2-switch-widget": "*",
+        "2amigos/yii2-date-picker-widget": "*",
+        "2amigos/yii2-date-time-picker-widget": "*",
+        "2amigos/yii2-multi-select-widget": "*",
+        "2amigos/yii2-editable-widget": "*"
     },
     "autoload": {
         "psr-4": {
