@@ -15,11 +15,12 @@ class CoreAsset extends AssetBundle {
         'yii\bootstrap\BootstrapPluginAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
     ];
+    /*
     public $jsOptions = [
         'conditions' => [
             'global/plugins/respond.min.js' => 'if lt IE 9',
             'global/plugins/excanvas.min.js' => 'if lt IE 9',
         ],
     ];
-
+    */
 }
