@@ -217,8 +217,6 @@ class Metronic extends \yii\base\Component {
      * Inits module
      */
     public function init() {
-        echo "asd";
-        die;
     }
 
     /**
