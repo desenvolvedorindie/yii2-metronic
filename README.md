@@ -23,22 +23,22 @@ Basic configuration:
 ##Plugins
 
 - [ ] amcharts
-  - [ ] amcharts
+  - [x] amcharts [speixoto/yii2-amcharts](https://github.com/speixoto/yii2-amcharts)
   - [ ] ammap
   - [ ] amstockcharts
 - [ ] angularjs
-- [ ] autosize
+- [x] autosize - [hiqdev/yii2-asset-autosize](https://github.com/hiqdev/yii2-asset-autosize)
 - [ ] backstretch
 - [ ] bootbox
-- [x] bootstrap
+- [x] bootstrap - [yiisoft/yii2-bootstrap](https://github.com/yiisoft/yii2-bootstrap)
 - [ ] bootstrap-colorpicker
 - [ ] bootstrap-confirmation
 - [ ] bootstrap-contextmenu
 - [ ] bootstrap-datepaginator
-- [ ] bootstrap-datepicker
+- [x] bootstrap-datepicker - [2amigos/yii2-date-picker-widget](https://github.com/2amigos/yii2-date-picker-widget)
 - [ ] bootstrap-daterangepicker
-- [ ] bootstrap-datetimepicker
-- [ ] bootstrap-editable
+- [x] bootstrap-datetimepicker - [2amigos/yii2-date-time-picker-widget](https://github.com/2amigos/yii2-date-time-picker-widget)
+- [x] bootstrap-editable - [2amigos/yii2-editable-widget](https://github.com/2amigos/yii2-editable-widget)
 - [ ] bootstrap-fileinput
 - [ ] bootstrap-growl
 - [ ] bootstrap-gtreetable
@@ -67,7 +67,7 @@ Basic configuration:
 - [ ] dropzone
 - [ ] fancybox
 - [ ] flot
-- [x] font-awesome [rmrevin/yii2-fontawesome](https://github.com/rmrevin/yii2-fontawesome)
+- [x] font-awesome - [rmrevin/yii2-fontawesome](https://github.com/rmrevin/yii2-fontawesome)
 - [ ] fuelux
 - [ ] fullcalendar
 - [ ] gmaps
@@ -83,12 +83,12 @@ Basic configuration:
 - [ ] jquery-knob
 - [ ] jquery-minicolors
 - [ ] jquery-mixitup
-- [ ] jquery-multi-select
+- [x] jquery-multi-select - [2amigos/yii2-multi-select-widget](https://github.com/2amigos/yii2-multi-select-widget)
 - [ ] jquery-nestable
 - [ ] jquery-notific8
 - [ ] jquery-slimscroll
 - [ ] jquery-tags-input
-- [ ] jquery-ui
+- [x] jquery-ui - [yiisoft/yii2-jui](https://github.com/yiisoft/yii2-jui)
 - [ ] jquery-ui-touch-punch
 - [ ] jquery-validation
 - [ ] jqvmap

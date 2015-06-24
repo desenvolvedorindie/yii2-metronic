@@ -3,6 +3,8 @@
 use yii\helpers\Html;
 
 wfcreations\metronic\bundles\CoreAsset::register($this);
+wfcreations\metronic\bundles\MetronicComponentsAsset::register($this);
+wfcreations\metronic\bundles\MetronicPluginsAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -504,7 +506,7 @@ wfcreations\metronic\bundles\CoreAsset::register($this);
             <!-- BEGIN CONTENT -->
             <div class="page-content-wrapper">
                 <div class="page-content">
-                
+
                 </div>
             </div>
             <!-- END CONTENT -->
@@ -1202,30 +1204,6 @@ wfcreations\metronic\bundles\CoreAsset::register($this);
         <script src="../../assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
         <script src="../../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
         <!-- END PAGE LEVEL PLUGINS -->
-        <!-- BEGIN PAGE LEVEL SCRIPTS -->
-        <script src="../../assets/global/scripts/metronic.js" type="text/javascript"></script>
-        <script src="../../assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
-        <script src="../../assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
-        <script src="../../assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
-        <script src="../../assets/admin/pages/scripts/index.js" type="text/javascript"></script>
-        <script src="../../assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
-        <!-- END PAGE LEVEL SCRIPTS -->
-        <script>
-            jQuery(document).ready(function () {
-                Metronic.init(); // init metronic core componets
-                Layout.init(); // init layout
-                QuickSidebar.init(); // init quick sidebar
-                Demo.init(); // init demo features
-                Index.init();
-                Index.initDashboardDaterange();
-                Index.initJQVMAP(); // init index page's custom scripts
-                Index.initCalendar(); // init index page's custom scripts
-                Index.initCharts(); // init index page's custom scripts
-                Index.initChat();
-                Index.initMiniCharts();
-                Tasks.initDashboardWidget();
-            });
-        </script>
         <?php $this->endBody() ?>
     </body>
 </html>
