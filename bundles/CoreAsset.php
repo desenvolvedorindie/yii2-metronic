@@ -10,6 +10,7 @@ class CoreAsset extends AssetBundle {
     public $depends = [
         'wfcreations\metronic\bundles\FontAsset',
         'yii\bootstrap\BootstrapPluginAsset',
+        'rmrevin\yii\fontawesome\AssetBundle',
     ];
     public $jsOptions = [
         'conditions' => [

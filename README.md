@@ -67,7 +67,7 @@ Basic configuration:
 - [ ] dropzone
 - [ ] fancybox
 - [ ] flot
-- [ ] font-awesome
+- [x] font-awesome [rmrevin/yii2-fontawesome](https://github.com/rmrevin/yii2-fontawesome)
 - [ ] fuelux
 - [ ] fullcalendar
 - [ ] gmaps
