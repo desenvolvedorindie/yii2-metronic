@@ -2,9 +2,7 @@
 
 use yii\helpers\Html;
 
-wfcreations\metronic\bundles\CoreAsset::register($this);
-wfcreations\metronic\bundles\MetronicComponentsAsset::register($this);
-wfcreations\metronic\bundles\MetronicPluginsAsset::register($this);
+wfcreations\metronic\bundles\AdminAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -22,25 +20,9 @@ wfcreations\metronic\bundles\MetronicPluginsAsset::register($this);
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
 
-        <link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
-        <!-- END GLOBAL MANDATORY STYLES -->
-        <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-        <link href="../../assets/global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css"/>
-        <!-- END PAGE LEVEL PLUGIN STYLES -->
         <!-- BEGIN PAGE STYLES -->
         <link href="../../assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
         <!-- END PAGE STYLES -->
-        <!-- BEGIN THEME STYLES -->
-        <link href="../../assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color"/>
-        <link href="../../assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
-        <!-- END THEME STYLES -->
         <link rel="shortcut icon" href="favicon.ico"/>
     </head>
     <!-- END HEAD -->
@@ -1176,14 +1158,8 @@ wfcreations\metronic\bundles\MetronicPluginsAsset::register($this);
         <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- BEGIN CORE PLUGINS -->
 
-        <!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-        <script src="../../assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+
         <script src="../../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-        <script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
         <!-- END CORE PLUGINS -->
         <!-- BEGIN PAGE LEVEL PLUGINS -->
         <script src="../../assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
@@ -1205,6 +1181,23 @@ wfcreations\metronic\bundles\MetronicPluginsAsset::register($this);
         <script src="../../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
         <!-- END PAGE LEVEL PLUGINS -->
         <?php $this->endBody() ?>
+        <script>
+            jQuery(document).ready(function () {
+                Metronic.init(); // init metronic core componets
+                Layout.init(); // init layout
+                QuickSidebar.init(); // init quick sidebar
+                Demo.init(); // init demo features
+                Index.init();
+                Index.initDashboardDaterange();
+                Index.initJQVMAP(); // init index page's custom scripts
+                Index.initCalendar(); // init index page's custom scripts
+                Index.initCharts(); // init index page's custom scripts
+                Index.initChat();
+                Index.initMiniCharts();
+                Tasks.initDashboardWidget();
+            });
+        </script>
+
     </body>
 </html>
 <?php $this->endPage() ?>

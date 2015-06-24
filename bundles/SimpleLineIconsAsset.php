@@ -10,12 +10,5 @@ class SimpleLineIconsAsset extends AssetBundle {
     public $css = [
         'global/plugins/simple-line-icons/simple-line-icons.min.css',
     ];
-    public $js = [
-        'global/plugins/uniform/jquery.uniform.min.js',
-    ];
-    public $depends = [
-        'wfcreations\metronic\bundles\FontAsset',
-        'yii\web\JqueryAsset',
-    ];
 
 }

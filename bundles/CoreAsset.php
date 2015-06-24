@@ -8,13 +8,20 @@ class CoreAsset extends AssetBundle {
 
     public $sourcePath = '@wfcreations/metronic/assets';
     public $js = [
-        'global/plugins/jquery-migrate.min.js',
+        'global/scripts/metronic.js',
     ];
     public $depends = [
         'wfcreations\metronic\bundles\LegacyAsset',
         'wfcreations\metronic\bundles\FontAsset',
+        'wfcreations\metronic\bundles\SimpleLineIconsAsset',
+        'rmrevin\yii\fontawesome\AssetBundle',
         'wfcreations\metronic\bundles\JuiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'rmrevin\yii\fontawesome\AssetBundle',
+        'wfcreations\metronic\bundles\JqueryMigrateAsset',
+        'wfcreations\metronic\bundles\BootstrapHoverDropdownAsset',
+        'wfcreations\metronic\bundles\JquerySlimscrollAsset',
+        'wfcreations\metronic\bundles\JqueryBlockUIAsset',
+        'wfcreations\metronic\bundles\UniformAsset',
+        'dosamigos\switchinput\SwitchAsset',
     ];
 }
