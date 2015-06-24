@@ -32,7 +32,8 @@
         "2amigos/yii2-editable-widget": "*",
         "rmrevin/yii2-fontawesome": "*",
         "speixoto/yii2-amcharts": "*",
-        "hiqdev/yii2-asset-autosize": "*"
+        "hiqdev/yii2-asset-autosize": "*",
+        "yiisoft/yii2-jui": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
