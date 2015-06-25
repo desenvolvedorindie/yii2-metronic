@@ -11,7 +11,9 @@ class CoreAsset extends AssetBundle {
         'global/scripts/metronic.js',
     ];
     public $depends = [
-        'wfcreations\metronic\bundles\LegacyAsset',
+        'wfcreations\legacy\RespondAsset',
+        'wfcreations\legacy\ExcanvasAsset',
+        'wfcreations\legacy\HTML5ShivAsset',
         'wfcreations\metronic\bundles\FontAsset',
         'wfcreations\metronic\bundles\SimpleLineIconsAsset',
         'rmrevin\yii\fontawesome\AssetBundle',

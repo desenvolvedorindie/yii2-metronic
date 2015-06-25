@@ -3,7 +3,7 @@ Yii2-Metronic
 Forked from [Yii2-Metronic](https://github.com/hustshenl/yii2-metronic)
 
 Yii2Metronic is a collection of Yii2 components(widgets) based on responsive and multipurpose admin theme
-called Metronic (v4.0). Powered with Twitter Bootstrap v3.3.4 Framework.
+called [Metronic](http://www.keenthemes.com/preview/index.php?theme=metronic) (v4.0). Powered with [Twitter Bootstrap](http://getbootstrap.com/) v3.3.5 Framework.
 
 Metronic can be used for any type of web applications: custom admin panels, admin dashboards, CMS, CRM, SAAS and websites: business, corporate, portfolio, blog.
 Metronic has a sleek, clean and intuitive metro style design which makes your next project look awesome and yet user
@@ -108,7 +108,7 @@ Basic configuration:
 - [ ] typeahead
 - [ ] uniform
 - [ ] zoom
-- [ ] excanvas
+- [ ] excanvas - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
 - [ ] jquery.blockui
 - [ ] jquery.cokie
 - [ ] jquery.easing
@@ -121,7 +121,7 @@ Basic configuration:
 - [ ] jquery.sparkline
 - [ ] jquery-migrate
 - [ ] moment
-- [ ] respond
+- [ ] respond - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
 
 ##Comercial Plugins
 
