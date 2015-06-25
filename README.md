@@ -33,17 +33,17 @@ Basic configuration:
 - [x] bootstrap - [yiisoft/yii2-bootstrap](https://github.com/yiisoft/yii2-bootstrap)
 - [ ] bootstrap-colorpicker
 - [ ] bootstrap-confirmation
-- [ ] bootstrap-contextmenu
+- [ ] bootstrap-contextmenu - [kartik-v/yii2-context-menu](https://github.com/kartik-v/yii2-context-menu)
 - [ ] bootstrap-datepaginator
 - [x] bootstrap-datepicker - [2amigos/yii2-date-picker-widget](https://github.com/2amigos/yii2-date-picker-widget)
-- [ ] bootstrap-daterangepicker
+- [x] bootstrap-daterangepicker - [kartik-v/yii2-date-range](https://github.com/kartik-v/yii2-date-range)
 - [x] bootstrap-datetimepicker - [2amigos/yii2-date-time-picker-widget](https://github.com/2amigos/yii2-date-time-picker-widget)
 - [x] bootstrap-editable - [2amigos/yii2-editable-widget](https://github.com/2amigos/yii2-editable-widget)
-- [ ] bootstrap-fileinput
-- [ ] bootstrap-growl
+- [x] bootstrap-fileinput - [kartik-v/yii2-widget-fileinput](https://github.com/kartik-v/yii2-widget-fileinput)
+- [x] bootstrap-growl - [kartik-v/yii2-widget-growl](https://github.com/kartik-v/yii2-widget-growl)
 - [ ] bootstrap-gtreetable
 - [ ] bootstrap-hover-dropdown
-- [ ] bootstrap-markdown
+- [x] bootstrap-markdown - [kartik-v/yii2-markdown](https://github.com/kartik-v/yii2-markdown)
 - [ ] bootstrap-maxlength
 - [ ] bootstrap-modal
 - [ ] bootstrap-pwstrength
@@ -55,7 +55,7 @@ Basic configuration:
 - [ ] bootstrap-tabdrop
 - [ ] bootstrap-timepicker
 - [ ] bootstrap-toastr
-- [ ] bootstrap-touchspin
+- [x] bootstrap-touchspin - [kartik-v/yii2-widget-touchspin](https://github.com/kartik-v/yii2-widget-touchspin)
 - [ ] bootstrap-wizard
 - [ ] bootstrap-wysihtml5
 - [ ] carousel-owl-carousel
@@ -99,16 +99,16 @@ Basic configuration:
 - [ ] pace
 - [ ] plupload
 - [ ] rateit
-- [ ] select2
+- [x] select2 - [yii2-widget-select2](https://github.com/kartik-v/yii2-widget-select2)
 - [ ] simple-line-icons
 - [ ] slider-layer-slider
 - [ ] slider-revolution-slider
 - [ ] smooth-scroll
 - [ ] tabdrop
-- [ ] typeahead
+- [x] typeahead - [kartik-v/yii2-widget-typeahead](https://github.com/kartik-v/yii2-widget-typeahead)
 - [ ] uniform
 - [ ] zoom
-- [ ] excanvas - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
+- [x] excanvas - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
 - [ ] jquery.blockui
 - [ ] jquery.cokie
 - [ ] jquery.easing
