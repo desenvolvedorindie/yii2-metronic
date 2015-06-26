@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class BootstrapSelectAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-select/bootstrap-select.min.css',
+        'plugins/bootstrap-select/bootstrap-select.min.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-select/bootstrap-select.min.js',
+        'plugins/bootstrap-select/bootstrap-select.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

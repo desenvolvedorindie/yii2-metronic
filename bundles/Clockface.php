@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class CarouselOWLCarousel extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/clockface/css/clockface.css',
+        'plugins/clockface/css/clockface.css',
     ];
     public $js = [
-        'global/plugins/clockface/js/clockface.js',
+        'plugins/clockface/js/clockface.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

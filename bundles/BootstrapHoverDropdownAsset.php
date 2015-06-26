@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BootstrapHoverDropdownAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
+        'plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

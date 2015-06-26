@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class DateRangePickerAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/bootstrap-daterangepicker/daterangepicker.js',
+        'plugins/bootstrap-daterangepicker/daterangepicker.js',
     ];
     public $css = [
-        'global/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css',
+        'plugins/bootstrap-daterangepicker/daterangepicker-bs3.css',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class JqueryMigrateAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/jquery-migrate.min.js',
+        'plugins/jquery-migrate.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',

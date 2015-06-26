@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class CoreAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/scripts/metronic.js',
+        'scripts/metronic.js',
     ];
     public $depends = [
         'wfcreations\legacy\RespondAsset',

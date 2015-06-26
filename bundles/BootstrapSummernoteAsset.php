@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class BootstrapSummernoteAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-summernote/summernote.css',
+        'plugins/bootstrap-summernote/summernote.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-summernote/summernote.min.js',
+        'plugins/bootstrap-summernote/summernote.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

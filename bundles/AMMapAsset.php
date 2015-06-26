@@ -6,20 +6,19 @@ use yii\web\AssetBundle;
 
 class AMMapAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'style.css',
+        'amcharts/ammap/style.css',
     ];
     public $js = [
-        'global/plugins/amcharts/amstockcharts/exporting/amexport.js',
-        'global/plugins/amcharts/amstockcharts/exporting/canvg.js',
-        'global/plugins/amcharts/amstockcharts/exporting/filesaver.js',
-        'global/plugins/amcharts/amstockcharts/exporting/jspdf.js',
-        'global/plugins/amcharts/amstockcharts/exporting/jspdf.plugin.addimage.js',
-        'global/plugins/amcharts/amstockcharts/exporting/rgbcolor.js',
-        'global/plugins/amcharts/amstockcharts/amcharts.js',
-        'global/plugins/amcharts/amstockcharts/amstock.js',
-        'global/plugins/amcharts/amstockcharts/serial.js',
+        'amcharts/ammap/exporting/amexport.js',
+        'amcharts/ammap/exporting/canvg.js',
+        'amcharts/ammap/exporting/filesaver.js',
+        'amcharts/ammap/exporting/jspdf.js',
+        'amcharts/ammap/exporting/jspdf.plugin.addimage.js',
+        'amcharts/ammap/exporting/rgbcolor.js',
+        'amcharts/ammap/ammap.js',
+        'amcharts/ammap/ammap_amcharts_extension.js',
     ];
 
 }

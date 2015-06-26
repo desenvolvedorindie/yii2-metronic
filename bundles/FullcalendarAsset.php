@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class FullcalendarAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/fullcalendar/fullcalendar.min.css',
+        'plugins/fullcalendar/fullcalendar.min.css',
     ];
     public $js = [
-        'global/plugins/fullcalendar/fullcalendar.min.js',
+        'plugins/fullcalendar/fullcalendar.min.js',
     ];
     public $depends = [
         'yii\web\AssetBundle\MomentAsset',

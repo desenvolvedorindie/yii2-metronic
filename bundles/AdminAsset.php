@@ -6,15 +6,15 @@ use yii\web\AssetBundle;
 
 class AdminAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/admin/layout/';
     public $css = [
-        'admin/layout/css/layout.css',
-        'admin/layout/css/themes/darkblue.css',
-        'admin/layout/css/custom.css',
+        'css/layout.css',
+        'css/themes/darkblue.css',
+        'css/custom.css',
     ];
     public $js = [
-        'admin/layout/scripts/layout.js',
-        'admin/layout/scripts/quick-sidebar.js',
+        'scripts/layout.js',
+        'scripts/quick-sidebar.js',
     ];
     public $depends = [
         'wfcreations\metronic\bundles\CoreAsset',

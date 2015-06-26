@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class UniformAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/uniform/css/uniform.default.css',
+        'plugins/uniform/css/uniform.default.css',
     ];
     public $js = [
-        'global/plugins/uniform/jquery.uniform.min.js',
+        'plugins/uniform/jquery.uniform.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',

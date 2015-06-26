@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class BootstrapDatepaginatorAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.css',
+        'plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.js',
+        'plugins/bootstrap-datepaginator/bootstrap-datepaginator.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class BootstrapColorpickerAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-colorpicker/css/colorpicker.css',
+        'plugins/bootstrap-colorpicker/css/colorpicker.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js',
+        'plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

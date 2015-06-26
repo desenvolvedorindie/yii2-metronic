@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class JqueryBlockUIAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/jquery.cokie.min.js',
+        'plugins/jquery.cokie.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',

@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class MetronicComponentsAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/css/components.css',
+        'css/components.css',
     ];
     public $depends = [
         'wfcreations\metronic\bundles\CoreAsset',

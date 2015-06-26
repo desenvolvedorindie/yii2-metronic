@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BootboxAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/bootbox/bootbox.min.js',
+        'plugins/bootbox/bootbox.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

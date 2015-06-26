@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BootstrapSessiontimeoutAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/bootstrap-selectsplitter/jquery.sessionTimeout.min.js',
+        'plugins/bootstrap-selectsplitter/jquery.sessionTimeout.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

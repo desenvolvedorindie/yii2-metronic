@@ -33,7 +33,7 @@ Basic configuration:
 - [x] bootstrap - [yiisoft/yii2-bootstrap](https://github.com/yiisoft/yii2-bootstrap)
 - [ ] bootstrap-colorpicker
 - [ ] bootstrap-confirmation
-- [ ] bootstrap-contextmenu - [kartik-v/yii2-context-menu](https://github.com/kartik-v/yii2-context-menu)
+- [x] bootstrap-contextmenu - [kartik-v/yii2-context-menu](https://github.com/kartik-v/yii2-context-menu)
 - [ ] bootstrap-datepaginator
 - [x] bootstrap-datepicker - [2amigos/yii2-date-picker-widget](https://github.com/2amigos/yii2-date-picker-widget)
 - [x] bootstrap-daterangepicker - [kartik-v/yii2-date-range](https://github.com/kartik-v/yii2-date-range)

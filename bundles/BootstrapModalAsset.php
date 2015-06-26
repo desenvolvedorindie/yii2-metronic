@@ -6,14 +6,14 @@ use yii\web\AssetBundle;
 
 class BootstrapModalAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-modal/css/bootstrap-modal.css',
-        'global/plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css',
+        'plugins/bootstrap-modal/css/bootstrap-modal.css',
+        'plugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-modal/js/bootstrap-modal.js',
-        'global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js',
+        'plugins/bootstrap-modal/js/bootstrap-modal.js',
+        'plugins/bootstrap-modal/js/bootstrap-modalmanager.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

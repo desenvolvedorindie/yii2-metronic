@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BackstretchAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/backstretch/jquery.backstretch.min.js',
+        'plugins/backstretch/jquery.backstretch.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset',

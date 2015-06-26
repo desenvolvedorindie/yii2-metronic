@@ -6,9 +6,9 @@ use yii\web\AssetBundle;
 
 class BootstrapSelectsplitterAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
-        'global/plugins/bootstrap-selectsplitter/bootstrap-selectsplitter.min.js',
+        'plugins/bootstrap-selectsplitter/bootstrap-selectsplitter.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',

@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
 
 class BootstrapToastrAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets';
+    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
-        'global/plugins/bootstrap-toastr/toastr.min.css',
+        'plugins/bootstrap-toastr/toastr.min.css',
     ];
     public $js = [
-        'global/plugins/bootstrap-toastr/toastr.min.js',
+        'plugins/bootstrap-toastr/toastr.min.js',
     ];
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',
