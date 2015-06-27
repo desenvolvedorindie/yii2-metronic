@@ -1,4 +1,4 @@
-Yii2-Metronic
+Yii2-Metronic (in development)
 ======================
 Forked from [Yii2-Metronic](https://github.com/hustshenl/yii2-metronic)
 
@@ -10,7 +10,25 @@ Metronic has a sleek, clean and intuitive metro style design which makes your ne
 friendly. Metronic has a huge collection of plugins and UI components and works seamlessly on all major web browsers,
 tablets and phones.
 
-Basic configuration:
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/kartik-v/yii2-widget-typeahead/blob/master/composer.json) for this extension's requirements and dependencies. Read this [web tip /wiki](http://webtips.krajee.com/setting-composer-minimum-stability-application/) on setting the `minimum-stability` settings for your application's composer.json.
+
+To install, either run
+
+```
+$ php composer.phar require wfcreations/yii2-metronic "*"
+```
+
+or add
+
+```
+"wfcreations/yii2-metronic": "*"
+```
+
+to the ```require``` section of your `composer.json` file.
+
+## Basic configuration:
 ```php
     'bootstrap' => ['metronic'],
     'components' => [ 
@@ -20,7 +38,7 @@ Basic configuration:
     ],
 ```
 
-##Plugins
+## Plugins
 
 - [ ] amcharts
   - [x] amcharts [speixoto/yii2-amcharts](https://github.com/speixoto/yii2-amcharts)

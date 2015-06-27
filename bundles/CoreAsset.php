@@ -6,24 +6,23 @@ use yii\web\AssetBundle;
 
 class CoreAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/global/';
-    public $js = [
-        'scripts/metronic.js',
-    ];
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
     public $depends = [
         'wfcreations\legacy\RespondAsset',
         'wfcreations\legacy\ExcanvasAsset',
         'wfcreations\legacy\HTML5ShivAsset',
         'wfcreations\metronic\bundles\FontAsset',
-        'wfcreations\metronic\bundles\SimpleLineIconsAsset',
+        'wfcreations\metronic\bundles\globalassets\SimpleLineIconsAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
-        'wfcreations\metronic\bundles\JuiAsset',
+        'wfcreations\metronic\bundles\globalassets\JuiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'wfcreations\metronic\bundles\JqueryMigrateAsset',
-        'wfcreations\metronic\bundles\BootstrapHoverDropdownAsset',
-        'wfcreations\metronic\bundles\JquerySlimscrollAsset',
-        'wfcreations\metronic\bundles\JqueryBlockUIAsset',
-        'wfcreations\metronic\bundles\UniformAsset',
+        'wfcreations\metronic\bundles\globalassets\JqueryMigrateAsset',
+        'wfcreations\metronic\bundles\globalassets\BootstrapHoverDropdownAsset',
+        'wfcreations\metronic\bundles\globalassets\JquerySlimscrollAsset',
+        'wfcreations\metronic\bundles\globalassets\JqueryBlockUIAsset',
+        'wfcreations\metronic\bundles\globalassets\UniformAsset',
         'dosamigos\switchinput\SwitchAsset',
     ];
+
 }
