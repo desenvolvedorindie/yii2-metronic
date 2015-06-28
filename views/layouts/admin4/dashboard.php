@@ -2,7 +2,8 @@
 
 use yii\helpers\Html;
 
-wfcreations\metronic\bundles\AdminAsset::register($this);
+wfcreations\metronic\bundles\AdminTheme4Asset::register($this);
+wfcreations\metronic\bundles\pages\styles\LoginAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -19,13 +20,6 @@ wfcreations\metronic\bundles\AdminAsset::register($this);
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
-        
-        <link href="../../assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/admin/layout4/css/layout.css" rel="stylesheet" type="text/css"/>
-        <link href="../../assets/admin/layout4/css/themes/light.css" rel="stylesheet" type="text/css" id="style_color"/>
-        <link href="../../assets/admin/layout4/css/custom.css" rel="stylesheet" type="text/css"/>
-        <!-- END THEME STYLES -->
         <link rel="shortcut icon" href="favicon.ico"/>
     </head>
     <!-- END HEAD -->

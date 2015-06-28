@@ -9,7 +9,7 @@ class AdminTheme2Asset extends AssetBundle {
     public $sourcePath = '@wfcreations/metronic/assets/admin/layout2/';
     public $css = [
         'css/layout.css',
-        'css/themes/darkblue.css',
+        'css/themes/default.css',
         'css/custom.css',
     ];
     public $js = [

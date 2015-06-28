@@ -1,6 +1,6 @@
 <?php
 
-namespace wfcreations\metronic\bundles\pages\style;
+namespace wfcreations\metronic\bundles\pages\styles;
 
 use yii\web\AssetBundle;
 

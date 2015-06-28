@@ -18,11 +18,9 @@ class CoreAsset extends AssetBundle {
         'wfcreations\metronic\bundles\globalassets\JuiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'wfcreations\metronic\bundles\globalassets\JqueryMigrateAsset',
-        'wfcreations\metronic\bundles\globalassets\BootstrapHoverDropdownAsset',
         'wfcreations\metronic\bundles\globalassets\JquerySlimscrollAsset',
         'wfcreations\metronic\bundles\globalassets\JqueryBlockUIAsset',
         'wfcreations\metronic\bundles\globalassets\UniformAsset',
-        'dosamigos\switchinput\SwitchAsset',
     ];
 
 }
