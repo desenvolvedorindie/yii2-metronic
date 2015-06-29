@@ -1,5 +1,8 @@
 Yii2-Metronic (in development)
 ======================
+
+[![Latest Stable Version](https://poser.pugx.org/wfcreations/yii2-metronic/v/stable)](https://packagist.org/packages/wfcreations/yii2-metronic) [![Total Downloads](https://poser.pugx.org/wfcreations/yii2-metronic/downloads)](https://packagist.org/packages/wfcreations/yii2-metronic) [![Latest Unstable Version](https://poser.pugx.org/wfcreations/yii2-metronic/v/unstable)](https://packagist.org/packages/wfcreations/yii2-metronic) [![License](https://poser.pugx.org/wfcreations/yii2-metronic/license)](https://packagist.org/packages/wfcreations/yii2-metronic)
+
 Forked from [Yii2-Metronic](https://github.com/hustshenl/yii2-metronic)
 
 Yii2Metronic is a collection of Yii2 components(widgets) based on responsive and multipurpose admin theme
@@ -69,7 +72,7 @@ to the ```require``` section of your `composer.json` file.
 - [ ] bootstrap-selectsplitter
 - [ ] bootstrap-sessiontimeout
 - [ ] bootstrap-summernote
-- [ ] bootstrap-switch
+- [x] bootstrap-switch [2amigos/yii2-switch-widget](https://github.com/2amigos/yii2-switch-widget)
 - [ ] bootstrap-tabdrop
 - [ ] bootstrap-timepicker
 - [ ] bootstrap-toastr

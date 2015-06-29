@@ -14,30 +14,6 @@ class Metronic extends \yii\base\Component {
     public static $assetsBundle;
 
     /**
-     * Versions
-     */
-    const ADMIN_THEME_1 = 'layout';
-    const ADMIN_THEME_2 = 'layout2';
-    const ADMIN_THEME_3 = 'layout3';
-    const ADMIN_THEME_4 = 'layout4';
-    const ADMIN_THEME_5 = 'layout5';
-    const ADMIN_THEME_6 = 'layout6';
-    const NEW_ONE_PAGE_THEME = 'onepage2';
-    const FRONTEND_ECOMMERCE = 'shop';
-    const FRONTEND_FRONTEND_CORPORATE = 'frontend';
-    const FRONTEND_ONEPAGE_PARALLAX = 'onepage';
-
-    /**
-     * Theme color
-     */
-    const THEME_COLOR_DEFAULT = 'default';
-    const THEME_COLOR_DARK_BLUE = 'darkblue';
-    const THEME_COLOR_BLUE = 'blue';
-    const THEME_COLOR_GRAY = 'grey';
-    const THEME_COLOR_LIGHT = 'light';
-    const THEME_COLOR_LIGHT2 = 'light2';
-
-    /**
      * Theme style
      */
     const THEME_STYLE_SQUARE = 'default';
@@ -159,11 +135,6 @@ class Metronic extends \yii\base\Component {
 //    const UI_COLOR_GREY_GALLERY = 'grey-gallery';
 
     /**
-     * @var string Theme color
-     */
-    public $themeColor = self::THEME_COLOR_DEFAULT;
-
-    /**
      * @var string Theme style
      */
     public $themeStyle = self::THEME_STYLE_ROUNDED;
@@ -217,6 +188,7 @@ class Metronic extends \yii\base\Component {
      * Inits module
      */
     public function init() {
+        
     }
 
     /**

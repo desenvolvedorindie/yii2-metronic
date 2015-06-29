@@ -13,14 +13,11 @@ class CoreAsset extends AssetBundle {
         'wfcreations\legacy\ExcanvasAsset',
         'wfcreations\legacy\HTML5ShivAsset',
         'wfcreations\metronic\bundles\FontAsset',
-        'wfcreations\metronic\bundles\globalassets\SimpleLineIconsAsset',
-        'rmrevin\yii\fontawesome\AssetBundle',
-        'wfcreations\metronic\bundles\globalassets\JuiAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\web\JqueryAsset',
         'wfcreations\metronic\bundles\globalassets\JqueryMigrateAsset',
-        'wfcreations\metronic\bundles\globalassets\JquerySlimscrollAsset',
-        'wfcreations\metronic\bundles\globalassets\JqueryBlockUIAsset',
-        'wfcreations\metronic\bundles\globalassets\UniformAsset',
+        'wfcreations\metronic\bundles\globalassets\JuiAsset',
+        'rmrevin\yii\fontawesome\AssetBundle',
+        'yii\bootstrap\BootstrapPluginAsset',
     ];
 
 }

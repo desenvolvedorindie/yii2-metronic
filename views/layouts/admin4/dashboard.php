@@ -2,8 +2,15 @@
 
 use yii\helpers\Html;
 
-wfcreations\metronic\bundles\AdminTheme4Asset::register($this);
-//wfcreations\metronic\bundles\pages\styles\TasksAsset::register($this);
+use wfcreations\metronic\bundles\AdminTheme4Asset;
+
+$adminTheme4Asset = AdminTheme4Asset::register($this);
+
+wfcreations\metronic\bundles\pages\styles\TasksAsset::register($this);
+wfcreations\metronic\bundles\globalassets\SimpleLineIconsAsset::register($this);
+wfcreations\metronic\bundles\globalassets\JquerySlimscrollAsset::register($this);
+dosamigos\switchinput\SwitchAsset::register($this);
+
 ?>
 
 <?php $this->beginPage() ?>
@@ -42,7 +49,7 @@ wfcreations\metronic\bundles\AdminTheme4Asset::register($this);
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
                     <a href="index.html">
-                        <img src="../../assets/admin/layout4/img/logo-light.png" alt="logo" class="logo-default"/>
+                        <img src="<?= $adminTheme4Asset->baseUrl ?>/img/logo-light.png" alt="logo" class="logo-default"/>
                     </a>
                     <div class="menu-toggler sidebar-toggler">
                         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
@@ -415,7 +422,7 @@ wfcreations\metronic\bundles\AdminTheme4Asset::register($this);
                                     <span class="username username-hide-on-mobile">
                                         Nick </span>
                                     <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-                                    <img alt="" class="img-circle" src="../../assets/admin/layout4/img/avatar9.jpg"/>
+                                    <img alt="" class="img-circle" src="<?= $adminTheme4Asset->baseUrl ?>/img/avatar9.jpg"/>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-default">
                                     <li>
