@@ -19,8 +19,8 @@ $form = ActiveForm::begin([
         ]);
 ?>
 <h3 class="form-title">Sign In</h3>
-<?= $form->field($model, 'username') ?>
-<?= $form->field($model, 'password')->passwordInput() ?>
+<?= $form->field($model, 'login')->textInput(['placeholder' => 'Login'])->label(false) ?>
+<?= $form->field($model, 'password')->passwordInput(['placeholder' => 'Senha'])->label(false) ?>
 <div class="form-actions">
     <?= Html::submitButton('Login', ['class' => 'btn btn-success uppercase', 'name' => 'login-button']) ?>
     <?=
