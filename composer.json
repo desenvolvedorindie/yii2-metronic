@@ -20,9 +20,11 @@
         }
     ],
     "require": {
-        "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2": "*",
-        "kartik-v/yii2-grid": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-jui": "*",
+        "wfcreations/yii2-simple-line-icons": "*",
+        "yii2-asset-legacy": "*",
         "2amigos/yii2-ckeditor-widget": "*",
         "2amigos/yii2-file-upload-widget": "*",
         "2amigos/yii2-type-ahead-widget": "*",
@@ -34,7 +36,7 @@
         "rmrevin/yii2-fontawesome": "*",
         "speixoto/yii2-amcharts": "*",
         "hiqdev/yii2-asset-autosize": "*",
-        "yiisoft/yii2-jui": "*",
+        "kartik-v/yii2-grid": "*",
         "kartik-v/yii2-widget-select2": "@dev",
         "kartik-v/yii2-widget-fileinput": "*",
         "kartik-v/yii2-widget-typeahead": "*",
