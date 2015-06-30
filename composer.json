@@ -24,7 +24,7 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-jui": "*",
         "wfcreations/yii2-simple-line-icons": "*",
-        "yii2-asset-legacy": "*",
+        "wfcreations/yii2-asset-legacy": "*",
         "2amigos/yii2-ckeditor-widget": "*",
         "2amigos/yii2-file-upload-widget": "*",
         "2amigos/yii2-type-ahead-widget": "*",
