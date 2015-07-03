@@ -20,7 +20,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require wfcreations/yii2-metronic "*"
+$ composer require wfcreations/yii2-metronic "*"
 ```
 
 or add
@@ -44,27 +44,27 @@ to the ```require``` section of your `composer.json` file.
 ## Plugins
 
 - [ ] amcharts
-  - [x] amcharts [speixoto/yii2-amcharts](https://github.com/speixoto/yii2-amcharts)
+  - [x] amcharts - ```$ composer require``` [speixoto/yii2-amcharts](https://github.com/speixoto/yii2-amcharts) ```"*"```
   - [ ] ammap
   - [ ] amstockcharts
 - [ ] angularjs
-- [x] autosize - [hiqdev/yii2-asset-autosize](https://github.com/hiqdev/yii2-asset-autosize)
+- [x] autosize - ```$ composer require``` [hiqdev/yii2-asset-autosize](https://github.com/hiqdev/yii2-asset-autosize) ```"*"```
 - [ ] backstretch
 - [ ] bootbox
 - [x] bootstrap - [yiisoft/yii2-bootstrap](https://github.com/yiisoft/yii2-bootstrap)
 - [ ] bootstrap-colorpicker
 - [ ] bootstrap-confirmation
-- [x] bootstrap-contextmenu - [kartik-v/yii2-context-menu](https://github.com/kartik-v/yii2-context-menu)
+- [x] bootstrap-contextmenu - ```$ composer require``` [kartik-v/yii2-context-menu](https://github.com/kartik-v/yii2-context-menu) ```"*"```
 - [ ] bootstrap-datepaginator
-- [x] bootstrap-datepicker - [2amigos/yii2-date-picker-widget](https://github.com/2amigos/yii2-date-picker-widget)
-- [x] bootstrap-daterangepicker - [kartik-v/yii2-date-range](https://github.com/kartik-v/yii2-date-range)
-- [x] bootstrap-datetimepicker - [2amigos/yii2-date-time-picker-widget](https://github.com/2amigos/yii2-date-time-picker-widget)
-- [x] bootstrap-editable - [2amigos/yii2-editable-widget](https://github.com/2amigos/yii2-editable-widget)
-- [x] bootstrap-fileinput - [kartik-v/yii2-widget-fileinput](https://github.com/kartik-v/yii2-widget-fileinput)
-- [x] bootstrap-growl - [kartik-v/yii2-widget-growl](https://github.com/kartik-v/yii2-widget-growl)
+- [x] bootstrap-datepicker - ```$ composer require``` [2amigos/yii2-date-picker-widget](https://github.com/2amigos/yii2-date-picker-widget) ```"*"```
+- [x] bootstrap-daterangepicker - ```$ composer require``` [kartik-v/yii2-date-range](https://github.com/kartik-v/yii2-date-range) ```"*"```
+- [x] bootstrap-datetimepicker - ```$ composer require``` [2amigos/yii2-date-time-picker-widget](https://github.com/2amigos/yii2-date-time-picker-widget) ```"*"```
+- [x] bootstrap-editable - ```$ composer require``` [2amigos/yii2-editable-widget](https://github.com/2amigos/yii2-editable-widget) ```"*"```
+- [x] bootstrap-fileinput - ```$ composer require``` [kartik-v/yii2-widget-fileinput](https://github.com/kartik-v/yii2-widget-fileinput) ```"*"```
+- [x] bootstrap-growl - ```$ composer require``` [kartik-v/yii2-widget-growl](https://github.com/kartik-v/yii2-widget-growl) ```"*"```
 - [ ] bootstrap-gtreetable
 - [ ] bootstrap-hover-dropdown
-- [x] bootstrap-markdown - [kartik-v/yii2-markdown](https://github.com/kartik-v/yii2-markdown)
+- [x] bootstrap-markdown - ```$ composer require``` [kartik-v/yii2-markdown](https://github.com/kartik-v/yii2-markdown) ```"*"```
 - [ ] bootstrap-maxlength
 - [ ] bootstrap-modal
 - [ ] bootstrap-pwstrength
@@ -72,15 +72,15 @@ to the ```require``` section of your `composer.json` file.
 - [ ] bootstrap-selectsplitter
 - [ ] bootstrap-sessiontimeout
 - [ ] bootstrap-summernote
-- [x] bootstrap-switch [2amigos/yii2-switch-widget](https://github.com/2amigos/yii2-switch-widget)
+- [x] bootstrap-switch - ```$ composer require``` [2amigos/yii2-switch-widget](https://github.com/2amigos/yii2-switch-widget) ```"*"```
 - [ ] bootstrap-tabdrop
 - [ ] bootstrap-timepicker
 - [ ] bootstrap-toastr
-- [x] bootstrap-touchspin - [kartik-v/yii2-widget-touchspin](https://github.com/kartik-v/yii2-widget-touchspin)
+- [x] bootstrap-touchspin - ```$ composer require``` [kartik-v/yii2-widget-touchspin](https://github.com/kartik-v/yii2-widget-touchspin) ```"*"```
 - [ ] bootstrap-wizard
 - [ ] bootstrap-wysihtml5
 - [ ] carousel-owl-carousel
-- [ ] ckeditor
+- [ ] ckeditor - ```$ composer require``` [2amigos/yii2-ckeditor-widget](https://github.com/2amigos/yii2-ckeditor-widget) ```"*"```
 - [ ] clockface
 - [ ] countdown
 - [ ] cubeportfolio
@@ -98,13 +98,13 @@ to the ```require``` section of your `composer.json` file.
 - [ ] jcrop
 - [ ] jquery-bootpag
 - [ ] jquery-easypiechart
-- [ ] jquery-file-upload
+- [ ] jquery-file-upload - ```$ composer require``` [2amigos/yii2-file-upload-widget](https://github.com/2amigos/yii2-file-upload-widget) ```"*"```
 - [ ] jquery-idle-timeout
 - [ ] jquery-inputmask
 - [ ] jquery-knob
 - [ ] jquery-minicolors
 - [ ] jquery-mixitup
-- [x] jquery-multi-select - [2amigos/yii2-multi-select-widget](https://github.com/2amigos/yii2-multi-select-widget)
+- [x] jquery-multi-select - ```$ composer require``` [2amigos/yii2-multi-select-widget](https://github.com/2amigos/yii2-multi-select-widget) ```"*"```
 - [ ] jquery-nestable
 - [ ] jquery-notific8
 - [ ] jquery-slimscroll
@@ -120,13 +120,13 @@ to the ```require``` section of your `composer.json` file.
 - [ ] pace
 - [ ] plupload
 - [ ] rateit
-- [x] select2 - [yii2-widget-select2](https://github.com/kartik-v/yii2-widget-select2)
+- [x] select2 - ```$ composer require``` [yii2-widget-select2](https://github.com/kartik-v/yii2-widget-select2) ```"*"```
 - [ ] simple-line-icons
 - [ ] slider-layer-slider
 - [ ] slider-revolution-slider
 - [ ] smooth-scroll
 - [ ] tabdrop
-- [x] typeahead - [kartik-v/yii2-widget-typeahead](https://github.com/kartik-v/yii2-widget-typeahead)
+- [x] typeahead - ```$ composer require``` [kartik-v/yii2-widget-typeahead](https://github.com/kartik-v/yii2-widget-typeahead) ```"*"```
 - [ ] uniform
 - [ ] zoom
 - [x] excanvas - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)

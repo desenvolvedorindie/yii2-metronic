@@ -21,16 +21,7 @@ class AdminTheme4Asset extends AssetBundle {
         'wfcreations\metronic\bundles\globalassets\ComponentsRoundedAsset',
         'wfcreations\metronic\bundles\globalassets\PluginsAsset',
         'wfcreations\metronic\bundles\admin\AdminLayout4Asset',
-        'wfcreations\metronic\bundles\admin\QuickSidebarAsset',
+        'wfcreations\metronic\bundles\admin\QuickSidebar2Asset',
     ];
-
-    public function init() {
-        parent::init();
-        \yii::$app->getView()->on(\yii\web\View::EVENT_END_PAGE, function ($event) {
-            $view = \yii::$app->getView();
-            //$event->sender->jsFiles
-            echo $this->basePath;
-        });
-    }
 
 }
