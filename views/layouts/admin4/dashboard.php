@@ -1,16 +1,17 @@
 <?php
-
+use backend\assets\AppAsset;
 use yii\helpers\Html;
-use yii\bootstrap\ButtonDropdown;
+use yii\helpers\Url;
 use wfcreations\metronic\bundles\AdminTheme4Asset;
 use wfcreations\simplelineicons\SLI;
 
+
+AppAsset::register($this);
 $adminTheme4Asset = AdminTheme4Asset::register($this);
 
 wfcreations\metronic\bundles\pages\styles\TasksAsset::register($this);
 wfcreations\simplelineicons\AssetBundle::register($this);
 wfcreations\metronic\bundles\globalassets\JquerySlimscrollAsset::register($this);
-dosamigos\switchinput\SwitchAsset::register($this);
 ?>
 
 <?php $this->beginPage() ?>
@@ -43,7 +44,7 @@ dosamigos\switchinput\SwitchAsset::register($this);
         <div class="page-header navbar navbar-fixed-top">
             <div class="page-header-inner">
                 <div class="page-logo">
-                    <a href="index.html">
+                    <a href="<?= Url::to(['/']) ?>">
                         <img src="<?= $adminTheme4Asset->baseUrl ?>/img/logo-light.png" alt="logo" class="logo-default"/>
                     </a>
                     <div class="menu-toggler sidebar-toggler">
@@ -210,7 +211,7 @@ dosamigos\switchinput\SwitchAsset::register($this);
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="<?= Url::to(['/site/login']) ?>">
                                 <?= SLI::icon(SLI::_LOGOUT) ?>
                                 <span class="title">Logout</span>
                             </a>
