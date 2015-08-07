@@ -34,7 +34,7 @@ class SidebarMenu extends Menu {
     public $firstItemCssClass = 'start';
     public $lastItemCssClass = 'last';
     public $submenuTemplate = "\n<ul class='sub-menu'>\n{items}\n</ul>\n";
-    public $linkTemplate = '{icon}{label}{badge}{arrow}';
+    public $linkTemplate = '{icon} {label} {badge} {arrow}';
     public $pageSidebarOptions = [];
     public $pageSidebarMenuOptions = [];
     public $itemOptions = [];

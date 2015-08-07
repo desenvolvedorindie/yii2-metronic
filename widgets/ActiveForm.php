@@ -1,13 +1,7 @@
 <?php
 
-/**
- * @copyright Copyright (c) 2012 - 2015 SHENL.COM
- * @license http://www.shenl.com/license/
- */
-
 namespace wfcreations\metronic\widgets;
 
-use yii\base\Model;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
@@ -15,36 +9,18 @@ use yii\widgets\ActiveFormAsset;
 
 class ActiveForm extends \yii\widgets\ActiveForm {
 
-    // Buttons align
     const BUTTONS_ALIGN_LEFT = 'left';
     const BUTTONS_ALIGN_RIGHT = 'right';
-    // Buttons position
     const BUTTONS_POSITION_TOP = 'top';
     const BUTTONS_POSITION_BOTTOM = 'bottom';
-    // Form type
     const TYPE_HORIZONTAL = 'horizontal';
     const TYPE_VERTICAL = 'vertical';
     const TYPE_INLINE = 'inline';
 
-    /**
-     * @var bool Indicates whether form rows is separated.
-     */
     public $separated = false;
-
-    /**
-     * @var bool Indicates whether form rows is stripped.
-     */
     public $stripped = false;
-
-    /**
-     * @var bool Indicates whether form rows is bordered.
-     */
     public $bordered = false;
-
-    /**
-     * @var string ActiveForm type.
-     * Valid values are 'horizontal', 'vertical', 'inline'
-     */
+    public $labelStripped = false;
     public $type = self::TYPE_VERTICAL;
 
     /**
@@ -69,23 +45,10 @@ class ActiveForm extends \yii\widgets\ActiveForm {
      */
     public $buttons = [];
     public $tagOptions = ['class' => 'col-md-9'];
-
-    /**
-     * @var array the default configuration used by [[field()]] when creating a new field object.
-     */
+    public $bodyOptions = [];
     public $fieldConfig = [];
     public $fieldClass = 'metronic\widgets\ActiveField';
 
-    /**
-     * @var bool indicates whether the tag 'form' is rendered.
-     * In case 'true' widget renders 'div' instead 'form'.
-     */
-    public $fake = false;
-
-    /**
-     * Initializes the widget.
-     * This renders the form open tag.
-     */
     public function init() {
         if (!isset($this->options['id'])) {
             $this->options['id'] = $this->getId();
@@ -102,6 +65,9 @@ class ActiveForm extends \yii\widgets\ActiveForm {
                 if ($this->bordered) {
                     Html::addCssClass($this->options, 'form-bordered');
                 }
+                if ($this->bordered) {
+                    Html::addCssClass($this->options, 'form-label-stripped');
+                }
                 Html::addCssClass($this->options, 'form-horizontal');
                 $this->fieldConfig = ArrayHelper::merge([
                             'labelOptions' => ['class' => 'col-md-3 control-label'],
@@ -110,27 +76,21 @@ class ActiveForm extends \yii\widgets\ActiveForm {
                 break;
             case self::TYPE_INLINE:
                 Html::addCssClass($this->options, 'form-inline');
-                $this->fieldConfig = ArrayHelper::merge([
-                                //'labelOptions' => ['class' => 'sr-only'],
-                                ], $this->fieldConfig);
                 break;
         }
+
         if (!isset($this->fieldConfig['class'])) {
             $this->fieldConfig['class'] = ActiveField::className();
         }
-        if ($this->fake) {
-            echo Html::beginTag('div', $this->options);
-        } else {
-            echo Html::beginForm($this->action, $this->method, $this->options);
-        }
+
+        echo Html::beginForm($this->action, $this->method, $this->options);
+
         echo $this->renderActions(self::BUTTONS_POSITION_TOP);
-        echo Html::beginTag('div', ['class' => 'form-body']);
+
+        Html::addCssClass($this->bodyOptions, 'form-inline');
+        echo Html::beginTag('div', $this->bodyOptions);
     }
 
-    /**
-     * Runs the widget.
-     * This registers the necessary javascript code and renders the form close tag.
-     */
     public function run() {
         echo Html::endTag('div');
         echo $this->renderActions(self::BUTTONS_POSITION_BOTTOM);
@@ -142,24 +102,9 @@ class ActiveForm extends \yii\widgets\ActiveForm {
             ActiveFormAsset::register($view);
             $view->registerJs("jQuery('#$id').yiiActiveForm($attributes, $options);");
         }
-        if ($this->fake) {
-            echo Html::endTag('div');
-        } else {
-            echo Html::endForm();
-        }
+        echo Html::endForm();
     }
 
-    /**
-     * Generates a form field.
-     * A form field is associated with a model and an attribute. It contains a label, an input and an error message
-     * and use them to interact with end users to collect their inputs for the attribute.
-     * @param Model $model the data model
-     * @param string $attribute the attribute name or expression. See [[Html::getAttributeName()]] for the format
-     * about attribute expression.
-     * @param array $options the additional configurations for the field object
-     * @return ActiveField the created ActiveField object
-     * @see fieldConfig
-     */
     public function field($model, $attribute, $options = []) {
         return parent::field($model, $attribute, $options);
     }
