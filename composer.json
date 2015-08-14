@@ -26,7 +26,8 @@
         "rmrevin/yii2-fontawesome": "*",
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
-        "bower-asset/blockui": "*"
+        "bower-asset/blockui": "*",
+        "bower-asset/slimScroll": "*"
         
     },
     "require-dev": {

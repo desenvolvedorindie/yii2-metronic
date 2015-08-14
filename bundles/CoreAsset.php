@@ -6,10 +6,8 @@ use yii\web\AssetBundle;
 
 class CoreAsset extends AssetBundle {
 
-    public $sourcePath = '@wfcreations/metronic/assets/dist/';
-    public $js = [
-        'js/init.js'
-    ];
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
     public $depends = [
         'wfcreations\legacy\RespondAsset',
         'wfcreations\legacy\ExcanvasAsset',

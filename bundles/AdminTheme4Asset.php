@@ -22,6 +22,7 @@ class AdminTheme4Asset extends AssetBundle {
         'wfcreations\metronic\bundles\globalassets\PluginsAsset',
         'wfcreations\metronic\bundles\admin\AdminLayout4Asset',
         'wfcreations\metronic\bundles\admin\QuickSidebar2Asset',
+        'wfcreations\metronic\bundles\InitAsset',
     ];
 
 }
