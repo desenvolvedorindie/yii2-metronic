@@ -1,8 +1,0 @@
-# Ignore everything
-*
-
-# But not these files...
-!dist/
-!dist/*
-!.gitignore
-!.put_assets_here

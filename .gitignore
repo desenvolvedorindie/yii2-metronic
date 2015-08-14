@@ -2,3 +2,13 @@
 /nbproject/private/
 /nbproject/
 /vendor/
+
+
+# Ignore everything
+assets/*
+
+# But not these files...
+!assets/dist/*
+!assets/dist/
+!assets/.gitignore
+!assets/.put_assets_here
