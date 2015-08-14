@@ -16,6 +16,7 @@ class CoreAsset extends AssetBundle {
         'wfcreations\legacy\HTML5ShivAsset',
         'wfcreations\metronic\bundles\FontAsset',
         'yii\web\JqueryAsset',
+        'wfcreations\metronic\bundles\globalassets\plugins\BlockUIAsset',
         //'wfcreations\metronic\bundles\globalassets\JqueryMigrateAsset',
         'yii\jui\JuiAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
