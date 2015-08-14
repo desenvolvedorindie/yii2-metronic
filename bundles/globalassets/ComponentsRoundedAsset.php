@@ -2,11 +2,10 @@
 
 namespace wfcreations\metronic\bundles\globalassets;
 
-use yii\web\AssetBundle;
+use wfcreations\metronic\bundles\GlobalAsset;
 
-class ComponentsRoundedAsset extends AssetBundle {
+class ComponentsRoundedAsset extends GlobalAsset {
 
-    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $css = [
         'css/components-rounded.css',
     ];

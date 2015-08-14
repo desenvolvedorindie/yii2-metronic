@@ -2,11 +2,10 @@
 
 namespace wfcreations\metronic\bundles\globalassets;
 
-use yii\web\AssetBundle;
+use wfcreations\metronic\bundles\GlobalAsset;
 
-class MetronicAsset extends AssetBundle {
+class MetronicAsset extends GlobalAsset {
 
-    public $sourcePath = '@wfcreations/metronic/assets/global/';
     public $js = [
         'scripts/metronic.js',
     ];

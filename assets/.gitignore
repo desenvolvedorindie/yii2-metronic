@@ -2,5 +2,6 @@
 *
 
 # But not these files...
+!dist/
 !.gitignore
 !.put_assets_here

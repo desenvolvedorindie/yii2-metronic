@@ -16,7 +16,7 @@ class AdminTheme4Asset extends AssetBundle {
     ];
     public $depends = [
         'wfcreations\metronic\bundles\CoreAsset',
-        'wfcreations\metronic\bundles\globalassets\UniformAsset',
+        //'wfcreations\metronic\bundles\globalassets\UniformAsset',
         'wfcreations\metronic\bundles\globalassets\MetronicAsset',
         'wfcreations\metronic\bundles\globalassets\ComponentsRoundedAsset',
         'wfcreations\metronic\bundles\globalassets\PluginsAsset',

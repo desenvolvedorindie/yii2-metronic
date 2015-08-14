@@ -26,7 +26,8 @@
         "rmrevin/yii2-fontawesome": "*",
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
-        "kartik-v/yii2-grid": "*"
+        "bower-asset/blockui": "*"
+        
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
