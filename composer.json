@@ -22,7 +22,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-jui": ">=2.0.4",
         "rmrevin/yii2-fontawesome": "*",
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
