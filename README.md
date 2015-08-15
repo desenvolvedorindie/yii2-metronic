@@ -80,25 +80,25 @@ to the ```require``` section of your `composer.json` file.
 - [ ] bootstrap-wizard
 - [ ] bootstrap-wysihtml5
 - [ ] carousel-owl-carousel
-- [ ] ckeditor - ```$ composer require``` [2amigos/yii2-ckeditor-widget](https://github.com/2amigos/yii2-ckeditor-widget) ```"*"```
+- [x] ckeditor - ```$ composer require``` [2amigos/yii2-ckeditor-widget](https://github.com/2amigos/yii2-ckeditor-widget) ```"*"```
 - [ ] clockface
 - [ ] countdown
 - [ ] cubeportfolio
 - [ ] datatables
 - [ ] dropzone
-- [ ] fancybox
+- [x] fancybox  - ```$ composer require``` [newerton/yii2-fancybox](https://github.com/newerton/yii2-fancybox) ```"*"```
 - [ ] flot
 - [x] font-awesome - [rmrevin/yii2-fontawesome](https://github.com/rmrevin/yii2-fontawesome)
 - [ ] fuelux
 - [ ] fullcalendar
 - [ ] gmaps
 - [ ] gritter
-- [ ] icheck
+- [x] icheck - ```$ composer require``` [hiqdev/yii2-asset-icheck](https://github.com/hiqdev/yii2-asset-icheck) ```"*"```
 - [ ] ion.rangeslider
 - [ ] jcrop
 - [ ] jquery-bootpag
 - [ ] jquery-easypiechart
-- [ ] jquery-file-upload - ```$ composer require``` [2amigos/yii2-file-upload-widget](https://github.com/2amigos/yii2-file-upload-widget) ```"*"```
+- [x] jquery-file-upload - ```$ composer require``` [2amigos/yii2-file-upload-widget](https://github.com/2amigos/yii2-file-upload-widget) ```"*"```
 - [ ] jquery-idle-timeout
 - [ ] jquery-inputmask
 - [ ] jquery-knob
@@ -107,7 +107,7 @@ to the ```require``` section of your `composer.json` file.
 - [x] jquery-multi-select - ```$ composer require``` [2amigos/yii2-multi-select-widget](https://github.com/2amigos/yii2-multi-select-widget) ```"*"```
 - [ ] jquery-nestable
 - [ ] jquery-notific8
-- [ ] jquery-slimscroll
+- [x] jquery-slimscroll - own
 - [ ] jquery-tags-input
 - [x] jquery-ui - [yiisoft/yii2-jui](https://github.com/yiisoft/yii2-jui)
 - [ ] jquery-ui-touch-punch
@@ -121,7 +121,7 @@ to the ```require``` section of your `composer.json` file.
 - [ ] plupload
 - [ ] rateit
 - [x] select2 - ```$ composer require``` [yii2-widget-select2](https://github.com/kartik-v/yii2-widget-select2) ```"*"```
-- [ ] simple-line-icons
+- [ ] simple-line-icons - [wfcreations/yii2-simple-line-icons](https://github.com/wfcreations/yii2-simple-line-icons)
 - [ ] slider-layer-slider
 - [ ] slider-revolution-slider
 - [ ] smooth-scroll
@@ -130,7 +130,7 @@ to the ```require``` section of your `composer.json` file.
 - [ ] uniform
 - [ ] zoom
 - [x] excanvas - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
-- [ ] jquery.blockui
+- [x] jquery.blockui - own
 - [ ] jquery.cokie
 - [ ] jquery.easing
 - [ ] jquery.input-ip-address-control
@@ -141,8 +141,8 @@ to the ```require``` section of your `composer.json` file.
 - [ ] jquery.scrollTo
 - [ ] jquery.sparkline
 - [ ] jquery-migrate
-- [ ] moment
-- [ ] respond - [yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
+- [x] moment - [omnilight/yii2-momentjs](https://github.com/omnilight/yii2-momentjs)
+- [x] respond - [wfcreations/yii2-asset-legacy](https://github.com/wfcreations/yii2-asset-legacy)
 
 ##Comercial Plugins
 
