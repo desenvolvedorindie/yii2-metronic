@@ -26,7 +26,7 @@
         "rmrevin/yii2-fontawesome": "*",
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
-        "wfcreations/fancybox": "*",
+        "bower-asset/fancybox": "*",
         "bower-asset/icheck": "*",
         "bower-asset/bootstrap-switch": "*",
         "bower-asset/blockui": "*",
