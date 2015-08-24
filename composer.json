@@ -27,7 +27,8 @@
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
         "bower-asset/blockui": "*",
-        "bower-asset/slimScroll": "*"
+        "bower-asset/slimScroll": "*",
+        "bower-asset/jquery-nestable" : "dev-master"
         
     },
     "require-dev": {
