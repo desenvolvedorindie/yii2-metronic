@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @copyright Copyright (c) 2012 - 2015 SHENL.COM
- * @license http://www.shenl.com/license/
- */
-
 namespace wfcreations\metronic\widgets;
 
 use yii\helpers\Html;
