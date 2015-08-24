@@ -105,7 +105,7 @@ to the ```require``` section of your `composer.json` file.
 - [ ] jquery-minicolors
 - [ ] jquery-mixitup
 - [x] jquery-multi-select - ```$ composer require``` [2amigos/yii2-multi-select-widget](https://github.com/2amigos/yii2-multi-select-widget) ```"*"```
-- [ ] jquery-nestable
+- [ ] jquery-nestable - [thesabbir/jquery-nestable](https://github.com/thesabbir/jquery-nestable)
 - [ ] jquery-notific8
 - [x] jquery-slimscroll - own
 - [ ] jquery-tags-input
