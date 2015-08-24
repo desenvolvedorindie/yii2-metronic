@@ -10,5 +10,8 @@ class JqueryNestable extends AssetBundle {
     public $js = [
         'jquery.nestable.js'
     ];
+    public $depends = [
+        'yii\jui\JuiAsset',
+    ];
 
 }

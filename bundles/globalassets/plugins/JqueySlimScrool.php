@@ -10,5 +10,8 @@ class JqueySlimScrool extends AssetBundle {
     public $js = [
         'jquery.slimscroll.min.js'
     ];
+    public $depends = [
+        'yii\jui\JuiAsset',
+    ];
 
 }

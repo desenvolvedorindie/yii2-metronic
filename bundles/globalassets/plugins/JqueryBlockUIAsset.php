@@ -7,8 +7,8 @@ use yii\web\AssetBundle;
 class JqueryBlockUIAsset extends AssetBundle {
 
     public $sourcePath = '@bower/blockui';
-    public $js = [
-        'jquery.blockUI.js'
+    public $depends = [
+        'yii\jui\JuiAsset',
     ];
 
 }
