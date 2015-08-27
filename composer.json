@@ -26,6 +26,7 @@
         "rmrevin/yii2-fontawesome": "*",
         "wfcreations/yii2-simple-line-icons": "*",
         "wfcreations/yii2-asset-legacy": "*",
+        "patrickkunka/mixitup": "*",
         "bower-asset/blockui": "*",
         "bower-asset/slimScroll": "*",
         "bower-asset/jquery-nestable" : "dev-master"
