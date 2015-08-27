@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class JqueryMixItUp extends AssetBundle {
 
-    public $sourcePath = '@patrickkunka/mixitup/build';
+    public $sourcePath = '@vendor/patrickkunka/mixitup/build';
     public $js = [
         'jquery.mixitup.min.js',
     ];
